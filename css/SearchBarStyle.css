@@ -3,7 +3,7 @@
   grid-column: 3/4;
   height: 2rem;
   width: 2rem;
-  background: rgb(49, 49, 49);
+  background: #4e4e4e;
   border-radius: 20px;
   margin: 0.5rem;
   padding: 0.1rem;
@@ -18,7 +18,7 @@
   padding-left: 0.8rem;
   padding-top: 0.2rem;
   background: transparent;
-  color: #FFFF33;
+  color: #f5e502;
   opacity: 0;
   width: 80%;
   cursor: pointer;
@@ -34,12 +34,12 @@
   display: flex;
   margin-left: auto;
   transition: 150ms ease-in-out;
-  color: #FFFF33;
+  color: #f5e502;
   margin-top: 0.2rem;
   margin-right: 0.12rem;
 }
 .SearchBar__submit:hover {
-  color: #fafa75;
+  color: #f0e65a;
 }
 .SearchBar:focus-within {
   width: 80%;

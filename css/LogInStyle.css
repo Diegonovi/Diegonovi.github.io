@@ -8,7 +8,7 @@
   height: 27.5vw;
   border-radius: 20px;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-  background-color: rgb(22, 22, 22);
+  background-color: #353636;
   margin-top: 5rem;
   margin-left: 10%;
 }
@@ -16,7 +16,7 @@
 a .fa {
   text-align: center;
   font-size: 4.5vw;
-  color: #FFFF33;
+  color: #f5e502;
   cursor: default;
   margin-left: 1.8vw;
   margin-top: 1.2vw;
@@ -25,7 +25,7 @@ a .fa {
 
 .LogInLabel {
   font-family: roundy;
-  color: #FFFF33;
+  color: #f5e502;
   padding: 0;
   margin-top: 5%;
   margin-left: 30%;
@@ -38,10 +38,10 @@ a .fa {
   width: 7.5vw;
   height: 7.5vw;
   border-radius: 50%;
-  background-color: rgb(22, 22, 22);
+  background-color: #353636;
   border-width: 0.01rem;
   border-style: solid;
-  border-color: #FFFF33;
+  border-color: #f5e502;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -60,7 +60,7 @@ a .fa {
 }
 
 :root {
-  --bg:#12181b;
+  --bg: 353636;
 }
 
 .form {
@@ -74,10 +74,10 @@ a .fa {
 .form__input {
   font-family: roundy;
   position: absolute;
-  border: 0.01rem solid #FFFF33;
+  border: 0.01rem solid #f5e502;
   border-radius: 3.5rem;
   font-size: 1rem;
-  color: #FFFF33;
+  color: #f5e502;
   outline: none;
   padding: 0.35rem;
   padding-left: 0.8rem;
@@ -86,7 +86,7 @@ a .fa {
 }
 
 .form__input:focus {
-  border-color: #FFFF33;
+  border-color: #f5e502;
   padding-left: 0.8rem;
   width: 16vw;
 }
@@ -98,10 +98,10 @@ a .fa {
   left: 0.8rem;
   top: 0.5rem;
   padding: 0;
-  color: #FFFF33;
+  color: #f5e502;
   cursor: text;
   transition: 250ms cubic-bezier(0.79, 0, 0.16, 0.99);
-  background-color: rgb(22, 22, 22);
+  background-color: #353636;
 }
 
 /* 1. When the input is in the focus state reduce the size of the label and move upwards 2. Keep label state when content is in input field */
@@ -110,7 +110,7 @@ a .fa {
   font-size: 1vw;
   left: 0.8vw;
   padding: 0 0.5rem;
-  color: #FFFF33;
+  color: #f5e502;
 }
 
 @media (max-width: 950px) {
@@ -128,7 +128,7 @@ a .fa {
     height: clamp(8rem, 27.5vw, 14rem);
     border-radius: 1.5rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-    background-color: rgb(22, 22, 22);
+    background-color: #353636;
   }
   .ExploreMenu .ExploreButton {
     cursor: pointer;
@@ -138,12 +138,12 @@ a .fa {
     border-radius: 50%;
     margin-top: 0.25rem;
     margin-left: 0.25rem;
-    color: #FFFF33;
+    color: #f5e502;
     font-size: 2rem;
     line-height: 2rem;
   }
   .ExploreMenu .ExploreButton:hover {
-    background-color: rgb(49, 49, 49);
+    background-color: #4e4e4e;
   }
   .ExploreMenu .BookmarksButton {
     cursor: pointer;
@@ -153,12 +153,12 @@ a .fa {
     border-radius: 50%;
     margin-top: 1vw;
     margin-left: 0.25rem;
-    color: #FFFF33;
+    color: #f5e502;
     font-size: 1.75rem;
     line-height: 25%;
   }
   .ExploreMenu .BookmarksButton:hover {
-    background-color: rgb(49, 49, 49);
+    background-color: #4e4e4e;
   }
   .ExploreMenu .InboxButton {
     cursor: pointer;
@@ -168,12 +168,12 @@ a .fa {
     border-radius: 50%;
     margin-top: 1vw;
     margin-left: 0.25rem;
-    color: #FFFF33;
+    color: #f5e502;
     font-size: 1.5rem;
     line-height: 25%;
   }
   .ExploreMenu .InboxButton:hover {
-    background-color: rgb(49, 49, 49);
+    background-color: #4e4e4e;
   }
   .ExploreMenu .ProfileButton {
     cursor: pointer;
@@ -183,12 +183,12 @@ a .fa {
     border-radius: 50%;
     bottom: 0.25rem;
     margin-left: 0.25rem;
-    color: #FFFF33;
+    color: #f5e502;
     font-size: 1.5rem;
     position: absolute;
   }
   .ExploreMenu .ProfileButton:hover {
-    background-color: rgb(49, 49, 49);
+    background-color: #4e4e4e;
   }
 }
 @media (max-width: 600px) {
@@ -212,12 +212,12 @@ a .fa {
     border-radius: 50%;
     margin-top: 0.25rem;
     margin-left: 0.25rem;
-    color: #FFFF33;
+    color: #f5e502;
     font-size: 2rem;
     line-height: 2rem;
   }
   .ExploreMenu .ExploreButton:hover {
-    background-color: rgb(49, 49, 49);
+    background-color: #4e4e4e;
   }
   .ExploreMenu .BookmarksButton {
     background-color: transparent;
@@ -227,12 +227,12 @@ a .fa {
     margin-top: 0.25rem;
     margin-left: 1vw;
     margin-right: 1.5vw;
-    color: #FFFF33;
+    color: #f5e502;
     font-size: 1.75rem;
     line-height: 2rem;
   }
   .ExploreMenu .BookmarksButton:hover {
-    background-color: rgb(49, 49, 49);
+    background-color: #4e4e4e;
   }
   .ExploreMenu .InboxButton {
     background-color: transparent;
@@ -242,12 +242,12 @@ a .fa {
     margin-top: 0.25rem;
     margin-left: 15%;
     margin-right: 10%;
-    color: #FFFF33;
+    color: #f5e502;
     font-size: 1.5rem;
     line-height: 2rem;
   }
   .ExploreMenu .InboxButton:hover {
-    background-color: rgb(49, 49, 49);
+    background-color: #4e4e4e;
   }
   .ExploreMenu .ProfileButton {
     position: unset;
@@ -258,11 +258,11 @@ a .fa {
     border-radius: 50%;
     margin-top: 0.25rem;
     margin-right: 0.25rem;
-    color: #FFFF33;
+    color: #f5e502;
     font-size: 1.5rem;
     line-height: 2rem;
   }
   .ExploreMenu .ProfileButton:hover {
-    background-color: rgb(49, 49, 49);
+    background-color: #4e4e4e;
   }
 }
