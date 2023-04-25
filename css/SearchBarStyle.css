@@ -52,6 +52,7 @@
 
 ::placeholder {
   font-size: 20px;
+  color: #f5e502;
 }
 
 @media (max-width: 600px) {
