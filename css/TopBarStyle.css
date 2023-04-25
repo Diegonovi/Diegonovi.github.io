@@ -23,7 +23,7 @@
 }
 
 .DropMenu {
-  display: flex;
+  cursor: pointer;
   align-items: center;
   grid-row: 1/2;
   grid-column: 1/2;
@@ -31,7 +31,7 @@
 .DropMenu__button {
   margin: 0.1rem;
   margin-left: 0.9rem;
-  margin-top: 0.1rem;
+  margin-top: 0.7rem;
   font-size: 1.1rem;
   color: #f5e502;
   background-color: transparent;

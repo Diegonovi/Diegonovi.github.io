@@ -113,7 +113,7 @@ a .fa {
   color: #f5e502;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 59.4rem) {
   .LogIn {
     display: none;
   }

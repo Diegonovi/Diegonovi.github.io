@@ -86,7 +86,7 @@
         overflow: hidden;
     }
 }
-@media (max-width: 1050px) {
+@media (max-width: 59.4rem) {
 
     .SlideShow{
         background-position-x: center;
@@ -130,7 +130,7 @@
 
 }
 
-@media (max-width : 950px){
+@media (max-width : 60rem){
     .SlideShow{
         height: clamp(10rem, 40vw, 20rem);
     }
@@ -148,7 +148,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
 
     .SlideShow{
         height: 23rem;
