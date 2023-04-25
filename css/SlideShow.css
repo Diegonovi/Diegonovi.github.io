@@ -91,7 +91,6 @@
     .SlideShow{
         background-position-x: center;
         background-size: cover;
-        height: clamp(10rem, 40vw, 20rem);
         margin-right: 10vw;
         margin-left: 3.5vw;
         width: 77vw;
@@ -99,7 +98,6 @@
 
     .SidePanel{
         padding-top: 4vh;
-        height: clamp(10rem, 40vw, 20rem);
         padding-left: 2vw;
         text-align: center;
     }
@@ -132,6 +130,15 @@
 
 }
 
+@media (max-width : 950px){
+    .SlideShow{
+        height: clamp(10rem, 40vw, 20rem);
+    }
+    .SidePanel{
+        height: clamp(10rem, 40vw, 20rem);
+    }
+}
+
 @media (max-width: 700px){
     .SidePanel{
         padding-top: 2%;
@@ -154,7 +161,7 @@
         width: 100%;
         margin-left: 0;
         margin-top: 15rem;
-        background-color: #ffff33ce;
+        background-color: #f5e502c5;
         border-radius: 0 0 20px 20px;
         padding-left: 1rem;
         padding-right: 1rem;

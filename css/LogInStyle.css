@@ -8,7 +8,7 @@
   height: 27.5vw;
   border-radius: 20px;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-  background-color: #353636;
+  background-color: #212322;
   margin-top: 5rem;
   margin-left: 10%;
 }
@@ -38,7 +38,7 @@ a .fa {
   width: 7.5vw;
   height: 7.5vw;
   border-radius: 50%;
-  background-color: #353636;
+  background-color: #212322;
   border-width: 0.01rem;
   border-style: solid;
   border-color: #f5e502;
@@ -101,7 +101,7 @@ a .fa {
   color: #f5e502;
   cursor: text;
   transition: 250ms cubic-bezier(0.79, 0, 0.16, 0.99);
-  background-color: #353636;
+  background-color: #212322;
 }
 
 /* 1. When the input is in the focus state reduce the size of the label and move upwards 2. Keep label state when content is in input field */
@@ -128,7 +128,7 @@ a .fa {
     height: clamp(8rem, 27.5vw, 14rem);
     border-radius: 1.5rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-    background-color: #353636;
+    background-color: #212322;
   }
   .ExploreMenu .ExploreButton {
     cursor: pointer;
@@ -158,7 +158,7 @@ a .fa {
     line-height: 25%;
   }
   .ExploreMenu .BookmarksButton:hover {
-    background-color: #4e4e4e;
+    background-color: #393b3a;
   }
   .ExploreMenu .InboxButton {
     cursor: pointer;
@@ -173,7 +173,7 @@ a .fa {
     line-height: 25%;
   }
   .ExploreMenu .InboxButton:hover {
-    background-color: #4e4e4e;
+    background-color: #393b3a;
   }
   .ExploreMenu .ProfileButton {
     cursor: pointer;
@@ -188,10 +188,10 @@ a .fa {
     position: absolute;
   }
   .ExploreMenu .ProfileButton:hover {
-    background-color: #4e4e4e;
+    background-color: #393b3a;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .ExploreMenu {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -200,10 +200,11 @@ a .fa {
     margin-top: 4.5rem;
     margin-left: 27vw;
     width: 40vw;
+    min-width: 11rem;
     height: 3rem;
     border-radius: 1.5rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-    background-color: rgb(22, 22, 22);
+    background-color: #212322;
   }
   .ExploreMenu .ExploreButton {
     background-color: transparent;
@@ -217,7 +218,7 @@ a .fa {
     line-height: 2rem;
   }
   .ExploreMenu .ExploreButton:hover {
-    background-color: #4e4e4e;
+    background-color: #393b3a;
   }
   .ExploreMenu .BookmarksButton {
     background-color: transparent;
@@ -232,7 +233,7 @@ a .fa {
     line-height: 2rem;
   }
   .ExploreMenu .BookmarksButton:hover {
-    background-color: #4e4e4e;
+    background-color: #393b3a;
   }
   .ExploreMenu .InboxButton {
     background-color: transparent;
@@ -247,7 +248,7 @@ a .fa {
     line-height: 2rem;
   }
   .ExploreMenu .InboxButton:hover {
-    background-color: #4e4e4e;
+    background-color: #393b3a;
   }
   .ExploreMenu .ProfileButton {
     position: unset;
@@ -263,6 +264,6 @@ a .fa {
     line-height: 2rem;
   }
   .ExploreMenu .ProfileButton:hover {
-    background-color: #4e4e4e;
+    background-color: #393b3a;
   }
 }

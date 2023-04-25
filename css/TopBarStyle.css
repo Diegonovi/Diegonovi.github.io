@@ -5,7 +5,7 @@
   height: 3rem;
   width: 80%;
   margin-left: 10%;
-  background-color: #353636;
+  background-color: #212322;
   border-radius: 80px;
   position: absolute;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
@@ -16,9 +16,9 @@
   grid-row: 1/2;
   font-family: glyph;
   color: #f5e502;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
-  line-height: 1;
+  line-height: 3rem;
   padding: 0;
 }
 
