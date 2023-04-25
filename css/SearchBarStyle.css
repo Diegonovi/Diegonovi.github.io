@@ -52,7 +52,7 @@
 
 ::placeholder {
   font-size: 18px;
-  color: #f5e502e5;
+  color: rgba(245, 229, 2, 0.8980392157);
 }
 
 @media (max-width: 600px) {
