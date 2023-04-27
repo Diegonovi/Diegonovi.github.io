@@ -1,0 +1,33 @@
+.ExpandedDropMenu {
+  position: absolute;
+  height: 0;
+  width: 100%;
+  margin-top: 2rem;
+  margin-right: 10vw;
+  background-color: #212322;
+  border-radius: 1rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  transition: 300ms ease-in-out;
+}
+
+.DropMenu__button:focus ~ .ExpandedDropMenu {
+  height: 17.5vw;
+  display: block;
+}
+
+.DropMenu__button:focus ~ .TopBar {
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 59.4rem) {
+  .DropMenu__button:focus ~ .ExpandedDropMenu {
+    height: 40vh;
+    display: block;
+  }
+}
+@media (max-width: 37.5rem) {
+  .DropMenu__button:focus ~ .ExpandedDropMenu {
+    height: 90vh;
+    display: block;
+  }
+}
