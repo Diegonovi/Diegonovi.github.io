@@ -1,13 +1,15 @@
 .ExpandedDropMenu {
+  display: flex;
   position: absolute;
   height: 0;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 2.2rem;
   margin-right: 10vw;
   background-color: #212322;
-  border-radius: 1rem;
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  box-shadow: 0 50px 200px rgba(0, 0, 0, 0.856);
   transition: 300ms ease-in-out;
+  overflow: hidden;
 }
 
 .DropMenu__button:focus ~ .ExpandedDropMenu {
@@ -15,8 +17,53 @@
   display: block;
 }
 
-.DropMenu__button:focus ~ .TopBar {
-  margin-bottom: 5rem;
+.AboutUs__background {
+  position: absolute;
+  margin-left: 20vw;
+  bottom: 1rem;
+  width: 2rem;
+  height: 10vw;
+  background-color: rgba(245, 229, 2, 0.7725490196);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+.AboutUs__background .AboutUs__label {
+  margin-left: -0.25rem;
+  font-size: 1.5rem;
+  font-family: glyph;
+  font-weight: bold;
+  color: #212322;
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 8rem;
+  width: 9rem;
+  cursor: default;
+}
+
+.Collections__background {
+  position: absolute;
+  margin-left: 1rem;
+  bottom: 1rem;
+  width: 2rem;
+  height: 11vw;
+  background-color: rgba(245, 229, 2, 0.7725490196);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+.Collections__background .Collections__label {
+  margin-left: -0.25rem;
+  font-size: 1.5rem;
+  font-family: glyph;
+  font-weight: bold;
+  color: #212322;
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-top: 8.7rem;
+  cursor: default;
 }
 
 @media (max-width: 59.4rem) {
