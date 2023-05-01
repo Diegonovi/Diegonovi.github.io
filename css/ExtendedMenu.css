@@ -19,10 +19,11 @@
 
 .AboutUs__background {
   position: absolute;
-  margin-left: 20vw;
+  margin-left: 20rem;
   bottom: 1rem;
   width: 2rem;
-  height: 10vw;
+  height: 8rem;
+  min-height: 8rem;
   background-color: rgba(245, 229, 2, 0.7725490196);
   border-radius: 1.5rem;
   overflow: hidden;
@@ -37,9 +38,18 @@
   transform-origin: 0 0;
   transform: rotate(-90deg);
   position: absolute;
-  margin-top: 8rem;
+  margin-top: 7.5rem;
   width: 9rem;
   cursor: default;
+}
+.AboutUs .AboutUs__box {
+  width: 12rem;
+  height: 13rem;
+  background-color: #393b3a;
+  border-radius: 1.5rem;
+  margin-left: 23rem;
+  bottom: 1rem;
+  position: absolute;
 }
 
 .Collections__background {
@@ -47,7 +57,8 @@
   margin-left: 1rem;
   bottom: 1rem;
   width: 2rem;
-  height: 11vw;
+  height: 8.9rem;
+  min-height: 8.9rem;
   background-color: rgba(245, 229, 2, 0.7725490196);
   border-radius: 1.5rem;
   overflow: hidden;
@@ -62,8 +73,17 @@
   transform-origin: 0 0;
   transform: rotate(-90deg);
   position: absolute;
-  margin-top: 8.7rem;
+  margin-top: 8.5rem;
   cursor: default;
+}
+.Collections .Collections__box {
+  width: 12rem;
+  height: 13rem;
+  background-color: #393b3a;
+  border-radius: 1.5rem;
+  margin-left: 4rem;
+  bottom: 1rem;
+  position: absolute;
 }
 
 @media (max-width: 59.4rem) {
