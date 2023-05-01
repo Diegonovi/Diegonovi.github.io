@@ -35,8 +35,7 @@
   margin-left: auto;
   transition: 150ms ease-in-out;
   color: #f5e502;
-  padding-top: 0.25rem;
-  padding-right: 0.35rem;
+  padding: 0.25rem 0.35rem 0.25rem 0.25rem;
 }
 .SearchBar__submit:hover {
   color: #f0e65a;

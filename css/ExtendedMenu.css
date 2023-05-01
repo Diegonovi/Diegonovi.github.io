@@ -16,6 +16,9 @@
   height: 17.5vw;
   display: block;
 }
+.DropMenu__button:focus ~ .ExpandedDropMenu body {
+  filter: blur(5px);
+}
 
 .AboutUs__background {
   position: absolute;
