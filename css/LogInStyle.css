@@ -123,7 +123,7 @@ a .fa {
     grid-template-rows: 25% 25% 25% 25%;
     margin-top: 8rem;
     margin-left: 10vw;
-    min-width: 3rem;
+    max-width: 3rem;
     height: clamp(8rem, 27.5vw, 14rem);
     border-radius: 1.5rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
