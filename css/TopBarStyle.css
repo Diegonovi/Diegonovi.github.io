@@ -10,6 +10,7 @@
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
   margin-left: 10vw;
   margin-right: 10vw;
+  padding-left: 1rem;
 }
 
 .PageName {
@@ -29,11 +30,9 @@
   align-items: center;
   grid-row: 1/2;
   grid-column: 1/4;
-  left: 1rem;
 }
 .DropMenu__button {
   margin: 0.1rem;
-  margin-left: 0.9rem;
   margin-top: 0.7rem;
   font-size: 1.1rem;
   color: #f5e502;
