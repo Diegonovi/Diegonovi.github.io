@@ -13,6 +13,7 @@
         <link rel= "stylesheet" type= "text/css" href="css/TopBarStyle.css">
         <link rel= "stylesheet" type= "text/css" href="css/IconBaguette.css">
         <link rel= "stylesheet" type= "text/css" href="css/ExtendedMenu.css">
+        <link rel= "stylesheet" type= "text/css" href="css/SlideShowButtons.css">
         <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -94,9 +95,18 @@
         </div>
     </div>
 
-    <div class="scroll">
-
+    <div class="ButtonHolder">
+        <button onclick="previousSlide()"  class="BackButton">
+            <i class="fa fa-caret-left"></i>
+        </button>
+        <button onclick="nextSlide()"  class="ForwardButton">
+            <i class="fa fa-caret-right"></i>
+        </button>
     </div>
+
+    <div class="scroll"></div>
+
+    <script src="Javascript/slideshow.js"></script>
 </body>
 
 </html>
