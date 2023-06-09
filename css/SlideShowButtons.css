@@ -1,40 +1,61 @@
-.ButtonHolder {
-  padding: 0.25rem;
-  padding-top: 0.8rem;
-  height: 7rem;
-  width: 2.5rem;
-  margin-top: 10.7rem;
-  margin-right: 6vw;
-  background-color: #212322;
-  border-radius: 0 1.5rem 1.5rem 0;
-}
-.ButtonHolder .BackButton {
-  padding: 0.2rem;
+.BackButton {
+  position: absolute;
   height: 2rem;
   width: 2rem;
   min-height: 2rem;
   min-width: 2rem;
+  margin-top: calc(27.5vw - 3.3rem);
+  margin-left: 1rem;
   border-radius: 1.5rem;
   background-color: #212322;
-  padding-left: 0;
 }
-.ButtonHolder .BackButton i {
-  font-size: 2.5rem;
+.BackButton i {
+  font-size: 2rem;
   margin-left: -0.3rem;
   color: rgba(245, 229, 2, 0.7725490196);
 }
-.ButtonHolder .ForwardButton {
-  padding: 0.2rem;
+
+.ForwardButton {
+  position: absolute;
   height: 2rem;
   width: 2rem;
   min-height: 2rem;
   min-width: 2rem;
+  margin-top: calc(27.5vw - 3.3rem);
+  right: calc(10vw + 0.1rem);
   border-radius: 1.5rem;
   background-color: #212322;
-  padding-left: 0;
 }
-.ButtonHolder .ForwardButton i {
-  font-size: 2.5rem;
-  margin-left: 0.5rem;
+.ForwardButton i {
+  font-size: 2rem;
+  margin-left: -0.3rem;
   color: rgba(245, 229, 2, 0.7725490196);
+  margin-left: 0.25rem;
+}
+
+@media (max-width: 75rem) {
+  .BackButton {
+    margin-top: calc(28vw - 3.3rem);
+  }
+  .ForwardButton {
+    margin-top: calc(28vw - 3.3rem);
+    right: calc(10vw + 0.2rem);
+  }
+}
+@media (max-width: 59.4rem) {
+  .BackButton {
+    margin-top: calc(clamp(10rem, 40vw, 20rem) - 3.3rem);
+  }
+  .ForwardButton {
+    margin-top: calc(clamp(10rem, 40vw, 20rem) - 3.3rem);
+    right: calc(10vw + 0.4rem);
+  }
+}
+@media (max-width: 37.5rem) {
+  .BackButton {
+    display: none;
+  }
+  .ForwardButton {
+    display: none;
+  }
 }

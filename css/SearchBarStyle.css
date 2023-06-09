@@ -1,4 +1,5 @@
 .SearchBar {
+  z-index: 2;
   grid-row: 1/2;
   grid-column: 3/4;
   height: 2rem;
@@ -54,12 +55,8 @@
   color: rgba(245, 229, 2, 0.8980392157);
 }
 
-@media (max-width: 600px) {
-  .SearchBar {
-    grid-column: 1/4;
-  }
+@media (max-width: 37.5rem) {
   .SearchBar:focus-within {
-    width: 73vw;
-    margin-right: 2vw;
+    width: 77vw;
   }
 }
