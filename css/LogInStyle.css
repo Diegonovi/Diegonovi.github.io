@@ -190,11 +190,12 @@ a .fa {
 }
 @media (max-width: 37.5rem) {
   .ExploreMenu {
+    margin-left: 32vw;
+    position: absolute;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
     margin-top: 4.5rem;
-    margin-left: 27vw;
     width: 40vw;
     min-width: 11rem;
     height: 3rem;
