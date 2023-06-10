@@ -57,6 +57,6 @@
 
 @media (max-width: 37.5rem) {
   .SearchBar:focus-within {
-    width: 77vw;
+    width: calc(80vw - 1rem);
   }
 }
