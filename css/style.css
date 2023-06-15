@@ -1,28 +1,24 @@
 * {
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
-body{
-    padding-top: 1.3rem;
-    background-image: url(../images/andrew-kliatskyi-xlNGXtJ1lgE-unsplash.jpg);
-    background-size: 100%;
-    display: flex;
-}
-
-@font-face {
-    font-family: glyph;
-    src: url(../fonts/MuseoModerno-VariableFont_wght.ttf);
+body {
+  padding-top: 1.3rem;
+  background-image: url(../images/andrew-kliatskyi-xlNGXtJ1lgE-unsplash.jpg);
+  background-size: 100%;
+  display: flex;
 }
 
 @font-face {
-    font-family: roundy;
-    src: url(../fonts/VarelaRound-Regular.ttf);
+  font-family: glyph;
+  src: url(../fonts/MuseoModerno-VariableFont_wght.ttf);
 }
-
+@font-face {
+  font-family: roundy;
+  src: url(../fonts/VarelaRound-Regular.ttf);
+}
 .scroll {
-    height: 115vh;
+  height: 115vh;
 }
-
-  

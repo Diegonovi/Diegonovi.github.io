@@ -121,10 +121,10 @@ a .fa {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 25% 25% 25% 25%;
-    margin-top: 8rem;
+    margin-top: 7rem;
     margin-left: 10vw;
     max-width: 3rem;
-    height: clamp(8rem, 27.5vw, 14rem);
+    height: calc(clamp(10rem, 40vw, 20rem) - 5rem);
     border-radius: 1.5rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
     background-color: #212322;
@@ -190,14 +190,14 @@ a .fa {
 }
 @media (max-width: 37.5rem) {
   .ExploreMenu {
-    margin-left: 32vw;
+    margin-left: calc((100vw - 10rem) / 2);
     position: absolute;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
     margin-top: 4.5rem;
-    width: 40vw;
-    min-width: 11rem;
+    width: 10rem;
+    min-width: 10rem;
     height: 3rem;
     border-radius: 1.5rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
@@ -238,7 +238,7 @@ a .fa {
     width: 2.5rem;
     border-radius: 50%;
     margin-top: 0.25rem;
-    margin-left: 15%;
+    margin-left: 0.5vw;
     margin-right: 10%;
     color: #f5e502;
     font-size: 1.5rem;

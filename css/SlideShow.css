@@ -1,205 +1,188 @@
-.SlideShow{
-    background-image: url(../images/molly-porter-K7oqWgDJQ6E-unsplash.jpg);
+.SlideShow {
+  background-image: url(../images/molly-porter-K7oqWgDJQ6E-unsplash.jpg);
+  background-position-x: center;
+  background-size: cover;
+  width: 100%;
+  height: 27.5vw;
+  border-radius: 1.5rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: 4.5rem;
+  margin-left: 2vw;
+  margin-right: 8.9vw;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.button {
+  cursor: pointer;
+  position: absolute;
+}
+
+.SidePanel {
+  height: 27.5vw;
+  width: 30%;
+  margin-left: 70%;
+  background-color: rgba(245, 229, 2, 0.7725490196);
+  border-radius: 0 1.5rem 1.5rem 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.title {
+  font-size: clamp(1.1rem, 2vw, 2rem);
+  font-family: roundy;
+  padding-top: 17%;
+  padding-bottom: 0;
+  font-weight: bolder;
+  text-align: center;
+  overflow: hidden;
+}
+
+.description {
+  font-family: roundy;
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  line-height: 1.4 rem;
+  padding: 10%;
+  padding-top: 20%;
+  text-align: left;
+  color: rgb(32, 32, 32);
+  overflow: hidden;
+}
+
+.altdescription {
+  display: none;
+}
+
+.author {
+  font-family: roundy;
+  font-size: 1.4 rem;
+  padding: 10%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.dashed {
+  border-top: 3px dashed black;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10px;
+}
+
+@media (max-width: 75rem) {
+  .SidePanel {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  .dashed {
+    margin-bottom: 2vw;
+  }
+  .description {
+    display: contents;
+  }
+  .altdescription {
+    margin-top: 3vh;
+    margin-bottom: 2rem;
+    display: none;
+    font-family: roundy;
+    font-size: 1rem;
+    line-height: 1.4 rem;
+    text-align: left;
+    color: rgb(32, 32, 32);
+  }
+}
+@media (max-width: 59.4rem) {
+  .SlideShow {
     background-position-x: center;
     background-size: cover;
-    width: 100%;
-    height: 27.5vw;
-    border-radius: 1.5rem;
-    box-shadow: 0 15px 20px rgba(0,0,0,.2);
-    cursor: pointer;
-    margin-top: 4.5rem;
-    margin-left: 2vw;
-    margin-right: 8.9vw;
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.button{
-    cursor: pointer;
-    position: absolute;
-}
-
-.SidePanel{
-    height: 27.5vw;
-    width: 30%;
-    margin-left: 70%;
-    background-color: #f5e502c5;
-    border-radius: 0 1.5rem 1.5rem 0;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-}
-
-.title{
-    font-size: clamp(1.1rem, 2vw, 2rem);
-    font-family: roundy;
-    padding-top: 17%;
-    padding-bottom: 0;
-    font-weight: bolder;
+    margin-left: 3.5vw;
+    width: 77vw;
+  }
+  .SidePanel {
+    padding-top: 4vh;
+    padding-left: 2vw;
     text-align: center;
-    overflow: hidden;
-}
-
-.description{
+  }
+  .title {
+    line-height: 2rem;
+  }
+  .dashed {
+    margin-bottom: 3vw;
+  }
+  .description {
+    display: none;
+    margin-bottom: 4rem;
+  }
+  .altdescription {
+    display: contents;
     font-family: roundy;
-    font-size: clamp(1rem, 1vw, 1.5rem);
+    font-size: 1rem;
     line-height: 1.4 rem;
-    padding: 10%;
-    padding-top: 20%;
     text-align: left;
     color: rgb(32, 32, 32);
     overflow: hidden;
+  }
+  .author {
+    font-size: 1rem;
+  }
 }
-
-.altdescription{
+@media (max-width: 66rem) {
+  .SidePanel {
+    padding-top: 2%;
+  }
+  .author {
     display: none;
-}
-
-.author{
-    font-family: roundy;
-    font-size: 1.4 rem;
-    padding: 10%;
-    text-align: center;
-    overflow: hidden;
-}
-
-.dashed{
-    border-top: 3px dashed black;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 10px;
-}
-
-@media (max-width: 75rem){
-    .SidePanel{
-        padding-left: 1rem;
-        padding-right: 1rem;
-        text-align: center;
-    }
-    .dashed{
-        margin-bottom: 2vw;
-    }
-    .description{
-        display: contents;
-    }
-    .altdescription{
-        margin-top: 3vh;
-        margin-bottom: 2rem;
-        display: none;
-        font-family: roundy;
-        font-size: clamp(0.8rem, 1rem, 1.4rem);
-        line-height: 1.4 rem;
-        text-align: left;
-        color: rgb(32, 32, 32);
-    }
+  }
 }
 @media (max-width: 59.4rem) {
-
-    .SlideShow{
-        background-position-x: center;
-        background-size: cover;
-        margin-left: 3.5vw;
-        width: 77vw;
-    }
-
-    .SidePanel{
-        padding-top: 4vh;
-        padding-left: 2vw;
-        text-align: center;
-    }
-
-    .title{
-        line-height: 2rem;
-    }
-    
-    .dashed{
-        margin-bottom: 3vw;
-    }
-    .description{
-        display: none;
-        margin-bottom: 4rem;
-    }
-
-    .altdescription{
-        display: contents;
-        font-family: roundy;
-        font-size: clamp(0.8rem, 1rem, 1.4rem);
-        line-height: 1.4 rem;
-        text-align: left;
-        color: rgb(32, 32, 32);
-        overflow: hidden;
-    }
-
-    .author{
-        font-size: clamp(0.8rem, 1rem, 1.4rem);
-    }
-
+  .SlideShow {
+    height: clamp(10rem, 40vw, 20rem);
+  }
+  .SidePanel {
+    height: clamp(10rem, 40vw, 20rem);
+  }
 }
-
-@media (max-width: 66rem){
-    .SidePanel{
-        padding-top: 2%;
-    }
-    .author{
-        display: none;
-    }
-}
-
-@media (max-width : 59.4rem){
-    .SlideShow{
-        height: clamp(10rem, 40vw, 20rem);
-    }
-
-    .SidePanel{
-        height: clamp(10rem, 40vw, 20rem);
-    }
-}
-
 @media (max-width: 37.5rem) {
-
-    .SlideShow{
-        position: absolute;
-        height: 23rem;
-        margin-top: 9.2rem;
-        margin-left: 10vw;
-    }
-    .SidePanel{
-        height: 8rem;
-        width: 100%;
-        margin-left: 0;
-        margin-top: 15rem;
-        background-color: #f5e502c5;
-        border-radius: 0 0 20px 20px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        text-align: center;
-    }
-
-    .title{
-        font-size: 1.5rem;
-        font-family: roundy;
-        padding-top: 1rem;
-        font-weight: bolder;
-        text-align: center;
-        margin-top: -0.5rem;
-    }
-    
-    .description{
-        display: none;
-    }
-
-    .altdescription{
-        display: contents;
-        font-family: roundy;
-        font-size: 1rem;
-        line-height: 1.3rem;
-        padding-left: 2rem;
-        color: rgb(32, 32, 32);
-        overflow: hidden;
-        width: 80%;
-    }
-
-    .author{
-        display: none;
-    }
-    
+  .SlideShow {
+    position: absolute;
+    height: 23rem;
+    margin-top: 9.2rem;
+    margin-left: 10vw;
+  }
+  .SidePanel {
+    height: 8rem;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15rem;
+    background-color: rgba(245, 229, 2, 0.7725490196);
+    border-radius: 0 0 20px 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  .title {
+    font-size: 1.5rem;
+    font-family: roundy;
+    padding-top: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -0.5rem;
+  }
+  .description {
+    display: none;
+  }
+  .altdescription {
+    display: contents;
+    font-family: roundy;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding-left: 2rem;
+    color: rgb(32, 32, 32);
+    overflow: hidden;
+    width: 80%;
+  }
+  .author {
+    display: none;
+  }
 }
