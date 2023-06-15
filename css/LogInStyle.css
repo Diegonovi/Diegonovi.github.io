@@ -3,14 +3,14 @@
 }
 
 .LogIn {
-  width: 21.5%;
-  min-width: 21.5%;
+  width: 21.5vw;
+  min-width: 21.5vw;
   height: 27.5vw;
   border-radius: 20px;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
   background-color: #212322;
   margin-top: 4.5rem;
-  margin-left: 10%;
+  margin-left: 10vw;
 }
 
 a .fa {

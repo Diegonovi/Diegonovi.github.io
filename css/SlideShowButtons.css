@@ -48,7 +48,7 @@
   }
   .ForwardButton {
     margin-top: calc(clamp(10rem, 40vw, 20rem) - 3.3rem);
-    right: calc(10vw + 0.4rem);
+    right: 1rem;
   }
 }
 @media (max-width: 37.5rem) {
