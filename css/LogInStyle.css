@@ -42,7 +42,7 @@ a .fa {
   border-width: 0.01rem;
   border-style: solid;
   border-color: #f5e502;
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
 .EmailBox {

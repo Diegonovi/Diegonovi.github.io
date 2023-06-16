@@ -2,16 +2,14 @@
   background-image: url(../images/molly-porter-K7oqWgDJQ6E-unsplash.jpg);
   background-position-x: center;
   background-size: cover;
-  width: 100%;
+  width: calc(100vw - (41.5vw + 2rem));
   height: 27.5vw;
   border-radius: 1.5rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   margin-top: 4.5rem;
-  margin-left: 2vw;
-  margin-right: 8.9vw;
-  display: grid;
-  grid-template-columns: auto;
+  margin-left: calc(10vw + 2rem + 21.5vw);
+  position: absolute;
 }
 
 .button {
