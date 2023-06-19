@@ -21,8 +21,8 @@
   width: 2rem;
   min-height: 2rem;
   min-width: 2rem;
-  margin-top: calc(27.5vw - 3.3rem);
-  right: calc(10vw + 0.1rem);
+  bottom: 1rem;
+  right: 1rem;
   border-radius: 1.5rem;
   background-color: #212322;
 }
@@ -38,8 +38,8 @@
     margin-top: calc(28vw - 3.3rem);
   }
   .ForwardButton {
-    margin-top: calc(28vw - 3.3rem);
-    right: calc(10vw + 0.2rem);
+    bottom: 1rem;
+    right: 1rem;
   }
 }
 @media (max-width: 59.4rem) {
