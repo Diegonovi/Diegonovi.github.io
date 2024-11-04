@@ -1,2 +1,1 @@
-/curriculum/* https://diegoscurriculum.netlify.app/:splat   200!
-/* /:splat/ 301!
+/curriculum* https://diegoscurriculum.netlify.app/:splat   200!
